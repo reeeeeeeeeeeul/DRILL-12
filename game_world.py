@@ -2,10 +2,10 @@
 # world = [] # 게임 월드에 존재하는 모든 객체를 담는 리스트
 
 # 계층적 구조를 갖는 게임 월드
-world = [ [], [] ]
+world = [ [], [], [] ]
 
 # 게임 월드에 객체를 담는 함수
-def add_object(o, depth = 0): # depth: 0(배경), 1(캐릭터)
+def add_object(o, depth = 0): # depth: 0(배경), 1(캐릭터) 2(위에 잔디)
     world[depth].append(o)
     
 def remove_object(o):

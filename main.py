@@ -33,6 +33,9 @@ def reset_world():
     grass = Grass()
     game_world.add_object(grass, 0)  # 게임 월드에 객체를 담는 함수 호출
 
+    grass2 = Grass2()
+    game_world.add_object(grass2, 2)
+
 
 
 def update_world():
